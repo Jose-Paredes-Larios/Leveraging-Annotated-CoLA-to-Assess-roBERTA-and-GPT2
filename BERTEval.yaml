@@ -1,0 +1,16 @@
+exp: TextClassification 
+
+mode:
+    - evaluate
+
+models:
+    hf_text_classification_model:
+        - /home/jparedeslarios/MidtermRep/BERT5
+        
+id2label:
+    1: Positive
+    0: Negative
+
+datafpath: /home/jparedeslarios/MidtermRep/argAltEval.tsv
+
+predfpath: /home/jparedeslarios/MidtermRep/argAltOutput5.tsv

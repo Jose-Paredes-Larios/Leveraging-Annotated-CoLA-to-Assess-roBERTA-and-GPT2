@@ -1,0 +1,17 @@
+exp: TextClassification 
+
+mode:
+    - train
+
+models:
+    hf_text_classification_model:
+        - bert-base-uncased
+
+labelLabel: label
+id2label:
+    1: Positive
+    0: Negative
+
+trainfpath: /home/jparedeslarios/MidtermRep/colaTrain.tsv
+validfpath: /home/jparedeslarios/MidtermRep/colaValid.tsv
+modelfpath: /home/jparedeslarios/MidtermRep/BERT1
